@@ -1,17 +1,20 @@
 #include <stdio.h>
 #include <limits.h>
 
-int main() {
+int main()
+{
     int n;
     scanf("$i", &n);
     int min = INT_MAX;
-    for(int i = 0; i < n; ++i){
-       int a;
-       scanf("%i", &a);
-       if (a < min){
-        min = a;
-       }
+    for (int i = 0; i < n; ++i)
+    {
+        int a;
+        scanf("%i", &a);
+        if (a < min)
+        {
+            min = a;
+        }
     }
-   
+
     printf("Max = %i\n", min);
 }
