@@ -9,7 +9,7 @@ int main()
 {
     float a;
     scanf("%f", &a);
-    float *p = &a;
+    float* p = &a;
     cube(p);
     printf("%f \n", a);
 }
