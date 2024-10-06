@@ -3,7 +3,7 @@
 
 float eps = 1e-10;
 
-void solve_quadratic(double a, double b, double c, double *px1, double *px2)
+void solve_quadratic(double a, double b, double c, double* px1, double* px2)
 {
     double D = b * b - 4 * a * c;
     if (D > 0)
@@ -21,8 +21,8 @@ int main()
 {
     double a = 1.0, b = -2.0, c = 1.0;
     double x1, x2;
-    double *sx1 = &x1;
-    double *sx2 = &x2;
+    double* sx1 = &x1;
+    double* sx2 = &x2;
 
     solve_quadratic(a, b, c, sx1, sx2);
     printf("%lf %lf \n", *sx1, *sx2);

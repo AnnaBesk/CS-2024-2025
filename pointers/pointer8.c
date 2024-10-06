@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int *max(int *pa, int *pb)
+int *max(int* pa, int* pb)
 {
     if (*pa >= *pb)
     {

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int exchange(int *pa, int b)
+int exchange(int* pa, int b)
 {
     int temp = *pa;
     *pa = b;

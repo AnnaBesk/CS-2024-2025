@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void cube(float *px)
+void cube(float* px)
 {
     *px = *px * *px * *px;
 }

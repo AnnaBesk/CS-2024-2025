@@ -7,7 +7,7 @@ int main(int argc, char **argv)
     int count = argc - 1;
     for (int i = 2; i < count + 1; ++i)
     {
-        for (int j = 1; j < count + 1 - j; ++j)
+        for (int j = 1; j < count + 1 - i; ++j)
         {
             if (strcmp(argv[j], argv[j + 1]) > 0)
                 printf("fff \n");

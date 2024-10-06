@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void set_characters(char *begin, const char *end, char c)
+void set_characters(char* begin, const char* end, char c)
 {
     while (begin < end)
     {

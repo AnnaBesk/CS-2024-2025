@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void mult2(int *p, size_t n)
+void mult2(int* p, size_t n)
 {
     for (int i = 0; i < n; i++)
     {
