@@ -43,7 +43,7 @@ void print_book(struct book* b)
 
 void library_print(Library lib){
     for (int j = 0; j < lib.number_of_books; ++j){
-        print_book(&lib.books[j]); // Передаём адрес элемента массива
+        print_book(&lib.books[j]); 
     }
 }
 
