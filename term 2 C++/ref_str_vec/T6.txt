@@ -1,0 +1,18 @@
+1) int
+2) long long x
+3) int
+4) int x
+5) error
+6) int& 
+7) const int& 
+8) error
+9) const int&
+10) int& 
+11) int& 
+12) const int&
+13) const char* 
+14) const std::string& str
+15) const char* str
+16) const std::string& str
+17) const std::string& str
+18) const char* str
