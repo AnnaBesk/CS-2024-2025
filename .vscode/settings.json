@@ -69,6 +69,14 @@
         "list": "cpp",
         "set": "cpp",
         "__tree": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "deque": "cpp",
+        "__verbose_abort": "cpp",
+        "numbers": "cpp",
+        "execution": "cpp",
+        "print": "cpp",
+        "queue": "cpp",
+        "stack": "cpp",
+        "variant": "cpp"
     }
 }

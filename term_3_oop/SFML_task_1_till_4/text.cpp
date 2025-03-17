@@ -4,6 +4,7 @@ int main()
 {
     sf::RenderWindow window(sf::VideoMode(300, 300), "Text", sf::Style::Default);
     window.setFramerateLimit(60);
+    
     sf::Font font;
     if (!font.loadFromFile("consola.ttf"))
     {
@@ -13,7 +14,7 @@ int main()
 
     sf::Text text;
     text.setFont(font);
-    text.setString(L"Привет мир!");
+    text.setString(L"Привет мир! \nПривет, Аня!");
     text.setCharacterSize(30);
     text.setFillColor(sf::Color::White);
     text.setStyle(sf::Text::Bold);

@@ -5,6 +5,7 @@ int main()
 {
     sf::ContextSettings settings;
     settings.antialiasingLevel = 8;
+    
     sf::RenderWindow window(sf::VideoMode(800, 100), "Moving Circle", sf::Style::Default, settings);
     window.setFramerateLimit(60);
 
