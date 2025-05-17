@@ -1,0 +1,3 @@
+/Users/mac/CS-2024-2025/4chosing_source/build/CMakeFiles/cat.dir
+/Users/mac/CS-2024-2025/4chosing_source/build/CMakeFiles/edit_cache.dir
+/Users/mac/CS-2024-2025/4chosing_source/build/CMakeFiles/rebuild_cache.dir
